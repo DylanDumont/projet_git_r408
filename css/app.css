@@ -85,14 +85,11 @@ h1 {
     font-weight: 600;
 }
 
-.btn {
+.about-btn {
     width: 180px;
     height: 50px;
-}
-
-.about-btn {
     margin-top: 50px;
-    background-color: red;
+    background-color: transparent;
     border: 5px solid white;
     color: white;
     font-weight: bold;
