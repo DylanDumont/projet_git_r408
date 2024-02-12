@@ -62,3 +62,46 @@ header {
     color: #E1306C;
     transform: scale(1.1);
 }
+
+.presentation {
+    /* background-color: red; */
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    font-family: sans-serif;
+    color: #FAE489;
+}
+
+h1 {
+    font-size: 60px;
+    /* text-transform: uppercase; */
+}
+
+.presentation-text p {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.btn {
+    width: 180px;
+    height: 50px;
+}
+
+.about-btn {
+    margin-top: 50px;
+    background-color: transparent;
+    border: 5px solid white;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+.about-btn:hover {
+    background-color: white;
+    color: black;
+}
