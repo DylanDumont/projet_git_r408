@@ -12,3 +12,53 @@ header {
     background-repeat: no-repeat;
     filter: blur(5px);
 }
+
+.line {
+    width: 5px;
+    height: 300px;
+    background-color: #f2c689;
+}
+
+.top-line {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+.bot-line {
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 85px;
+}
+
+.socials-container i {
+    font-size: 35px;
+    margin: 10px 0;
+    transition: 0.2s;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+    transform: scale(1.1);
+}
+
+.fa-x-twitter:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+    transform: scale(1.1);
+}
