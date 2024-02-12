@@ -304,3 +304,48 @@ footer {
     color: #E1306C;
     transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+/* Gallery */
+
+.gallery h2 {
+    color: #f2c689;
+    width: 100%;
+    font-size: 40px;
+} 
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .colonne {
+    flex: 25%;
+    max-width: 25%;
+  }
+  
+  .colonne img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .colonne {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .colonne {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
