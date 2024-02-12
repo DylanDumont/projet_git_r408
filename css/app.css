@@ -323,17 +323,21 @@ footer {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    padding: 50px;
   }
   
   .colonne {
-    flex: 25%;
-    max-width: 25%;
+    flex: 33%;
+    max-width: 33%;
   }
   
   .colonne img {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 50px;
+
   }
   
   @media screen and (max-width: 800px) {
