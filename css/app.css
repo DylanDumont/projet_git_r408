@@ -4,7 +4,7 @@ header {
     min-height: 100vh;
 }
 
-.bg-image {
+-image {
     min-height: 100vh;
     background-image: url(/images/bg.jpg);
     background-size: cover;
@@ -33,7 +33,7 @@ header {
 
 .socials-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: colonne;
     justify-content: center;
     align-items: center;
     color: white;
