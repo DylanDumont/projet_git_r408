@@ -130,6 +130,67 @@ h1 {
 }
 
 
+/* about */
+.about{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/bg-about.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+
+}
+.right {
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+    background-image: url(/images/dydy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    font-family: sans-serif;
+    background-image: url(/images/henry.jpg) ;
+    background-size: cover;
+    color: #f2c689;
+    
+}
+.filtre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(4px);
+}
+
+.left h2 {
+    font-size: 50px;
+    /* margin-top: 45%; */
+}
+.left p{
+    font-size: 24px;
+    text-align: justify;
+    margin: 50px;
+    line-height: 40px;
+}
+
+
 /* contact */
 .contact {
     min-height: 100vh;
