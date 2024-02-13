@@ -6,7 +6,7 @@ header {
 
 .bg-image {
     min-height: 100vh;
-    background-image: url(/images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/bg-about.jpg);
+    background-image: url(../images/bg-about.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ h1 {
     width: 50%;
     height: 100vh;
     background-color: red;
-    background-image: url(/images/dydy.jpg);
+    background-image: url(../images/dydy.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ h1 {
     align-items: center;
     background-color: rgb(202, 202, 202);
     font-family: sans-serif;
-    background-image: url(/images/henry.jpg) ;
+    background-image: url(../images/henry.jpg) ;
     background-size: cover;
     color: #f2c689;
     
@@ -201,7 +201,7 @@ h1 {
     flex: 1;
     height: 100vh;
     max-width: 40vw;
-    background-image: url(/images/contact.jpg);
+    background-image: url(../images/contact.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -379,6 +379,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
+    background-color: whitesmoke;
   }
   
   .colonne {
@@ -392,7 +393,7 @@ footer {
     width: 450px;
     height: 300px;
     margin-bottom: 50px;
-
+    box-shadow: 5px 5px 15px 5px #C7C7C7;
   }
   
   @media screen and (max-width: 800px) {
